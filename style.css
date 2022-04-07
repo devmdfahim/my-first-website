@@ -1,4 +1,5 @@
 /*Import Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 /* Starts CSS Styling*/
@@ -12,6 +13,7 @@ body{
 p{
     margin-top: 20px;
     margin-bottom: 50px;
+    font-size: 15px;
     color: dimgray;
 }
 h1{
@@ -19,7 +21,8 @@ h1{
 }
 .peter-color{
     color: #F24F78;
-    font-size: 50px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 65px;
     font-weight: 700;
 }
 .half-width{
@@ -28,8 +31,23 @@ h1{
     margin-left: 5%;
     padding-left: 2%;
 }
+.half-width img{
+    width: 100%;
+    height: 100%;
+}
 .vertical-align{
     margin-top: 100px;
+}
+.vertical-align a{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #F3528E, #F34F71);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    transition: .6s all ease-out;
+}
+.vertical-align a:hover{
+    box-shadow: 4px 4px 3px #bbb;
 }
 .half-width img{
     width: 100%;
@@ -38,15 +56,23 @@ h1{
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
     background-position: center;
+    height: 100vh;
+    margin: 20px 0px 20px 0px;
 }
 section{
     height: 500px;
     padding-bottom: 150px;
 }
-.link-button{
-    text-decoration: none;
-    background-image: linear-gradient(45deg, #F3528E, #F34F71);
-    padding: 10px 30px;
-    border-radius: 5px;
-    color: white;
+/*Biography*/
+.biography{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 30px;
+}
+.biography .half-width img{
+    width:90%;
+}
+h2{
+    font-size: 40px;
 }
