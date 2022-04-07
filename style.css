@@ -1,0 +1,52 @@
+/*Import Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Starts CSS Styling*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: dimgray;
+}
+h1{
+    font-size: 40px;
+}
+.peter-color{
+    color: #F24F78;
+    font-size: 50px;
+    font-weight: 700;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.vertical-align{
+    margin-top: 100px;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #F3528E, #F34F71);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+}
