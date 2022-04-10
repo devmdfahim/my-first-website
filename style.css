@@ -21,7 +21,12 @@ h1, h2{
     font-size: 40px;
 }
 
-
+/*Owl css*/
+.owl-nav{
+    text-align: center;
+    font-size: 50px;
+    display: none;
+}
 /* body styling*/
 body{
     font-family: 'Poppins', sans-serif;
@@ -71,8 +76,8 @@ body{
     background-image: url("assets/images/biography-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    margin: 100px 0;
-    padding: 60px 0;
+    margin: 60px 0;
+    padding: 30px 0;
     overflow: hidden;
 }
 .biography .half-width img{
@@ -100,8 +105,8 @@ body{
     background-image: url("assets/images/footer-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    margin: 100px 0;
-    padding: 70px 0;
+    margin: 60px 0;
+    padding: 30px 0;
 }
 .client-reviews h2{
     text-align: center;
