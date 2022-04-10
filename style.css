@@ -2,13 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-/* Starts CSS Styling*/
+/* common CSS Styling*/
 *{
     margin: 0;
     padding: 0;
 }
-body{
-    font-family: 'Poppins', sans-serif;
+img{
+    width: 100%;
+    height: 100%;
 }
 p{
     margin-top: 20px;
@@ -16,63 +17,137 @@ p{
     font-size: 15px;
     color: dimgray;
 }
-h1{
+h1, h2{
     font-size: 40px;
 }
-.peter-color{
-    color: #F24F78;
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 65px;
-    font-weight: 700;
+
+
+/* body styling*/
+body{
+    font-family: 'Poppins', sans-serif;
 }
+.top-banner{
+    background-image: url("assets/images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 30px 0 20px 0;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
 .half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
-    padding-left: 2%;
+    padding-left: 3%;
 }
-.half-width img{
-    width: 100%;
-    height: 100%;
+
+.about-peter{
+    padding-top: 100px;
 }
-.vertical-align{
-    margin-top: 100px;
-}
-.vertical-align a{
+
+.peter-color{
+    color: #F24F78;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+} 
+
+.half-width .about-peter a{
     text-decoration: none;
     background-image: linear-gradient(45deg, #F3528E, #F34F71);
     padding: 10px 30px;
     border-radius: 5px;
     color: white;
-    transition: .6s all ease-out;
+    transition: .6s;
 }
-.vertical-align a:hover{
+
+.half-width .about-peter a:hover{
     box-shadow: 4px 4px 3px #bbb;
 }
-.half-width img{
-    width: 100%;
-}
-.top-banner{
-    background-image: url("images/header-bg.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    margin: 20px 0px 20px 0px;
-}
-section{
-    height: 500px;
-    padding-bottom: 150px;
-}
-/*Biography*/
+
+/* biography style */
 .biography{
-    background-image: url("images/biography-bg.png");
+    background-image: url("assets/images/biography-bg.png");
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: 30px;
+    margin: 100px 0;
+    padding: 60px 0;
+    overflow: hidden;
 }
 .biography .half-width img{
-    width:90%;
+    width: 90%;
+    height: 90%;
 }
-h2{
-    font-size: 40px;
+
+/* portfolio Style */
+.portfolio{
+    margin: 100px 20px;
+    padding: 60px 0;
+}
+
+.portfolio h2{
+    text-align: center;
+}
+
+.slider{
+    padding-top: 100px;
+}
+
+/* client-reviews */
+.client-reviews{
+    background-image: url("assets/images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 100px 0;
+    padding: 60px 0;
+}
+.client-reviews h2{
+    text-align: center;
+}
+.client-reviews .clients{
+    text-align: center;
+    margin-top: 60px;
+}
+.client-reviews .client-info h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+.client-reviews .client-info p{
+    font-size: 14px;
+}
+.client-reviews .client-info .client-qoute{
+    font-size: medium;
+    width: 30%;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+}
+.client-reviews .client-info .client-qoute span{
+    text-align: center;
+}
+.client-massage{
+    width: 40%;
+    background-image: linear-gradient(45deg, #F3528E, #F34F71);
+    margin: 60px auto;
+    padding: 20px 50px 60px 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+.client-massage p{
+    color: azure;
+    margin-bottom: 20px;
+}
+.client-massage h3{
+    color: aliceblue;
+    font-weight: 600;
+}
+/*copyright style*/
+.copyrights{
+    text-align: center;
+}
+.copyrights span{
+    font-size: 14px;
+    font-weight: 600;
+    color: #F24F78;
 }
