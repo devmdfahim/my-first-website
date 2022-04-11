@@ -132,19 +132,19 @@ body{
 .client-reviews .client-info .client-qoute span{
     text-align: center;
 }
-.client-massage{
+.sent-massage{
     width: 40%;
     background-image: linear-gradient(45deg, #F3528E, #F34F71);
     margin: 60px auto;
     padding: 20px 50px 60px 50px;
-    text-align: center;
     border-radius: 10px;
+    text-align: center;
 }
-.client-massage p{
+.sent-massage p{
     color: azure;
     margin-bottom: 20px;
 }
-.client-massage h3 a{
+.sent-massage h3 a{
     text-decoration: none;
     color: aliceblue;
     font-weight: 600;
